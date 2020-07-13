@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="426.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Delete">
+   <children>
+      <TableView fx:id="table3" layoutX="78.0" layoutY="105.0" prefHeight="267.0" prefWidth="445.0">
+         <columns>
+            <TableColumn fx:id="colum0" prefWidth="55.0" text="STT" />
+            <TableColumn fx:id="colum1" prefWidth="212.0" text="Tên khoản chi tiêu" />
+            <TableColumn fx:id="colum2" prefWidth="90.0" text="Số tiền chi" />
+            <TableColumn fx:id="colum3" prefWidth="90.0" text="Thời gian" />
+         </columns>
+      </TableView>
+      <Button layoutX="274.0" layoutY="381.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button layoutX="163.0" layoutY="14.0" mnemonicParsing="false" onAction="#delete" text="Xóa">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="stt" layoutX="163.0" layoutY="56.0" prefHeight="19.0" prefWidth="94.0" />
+      <Label layoutX="57.0" layoutY="59.0" prefHeight="19.0" prefWidth="94.0" text="Mục cần xóa">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="497.0" layoutY="32.0" mnemonicParsing="false" onAction="#deleteAll" text="Xóa tất cả" textFill="#ab1e1e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

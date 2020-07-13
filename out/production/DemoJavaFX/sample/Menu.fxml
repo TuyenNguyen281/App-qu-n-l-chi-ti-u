@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+   <children>
+      <Button fx:id="add" layoutX="259.0" layoutY="91.0" mnemonicParsing="false" onAction="#add" prefHeight="27.0" prefWidth="83.0" text="Thêm mới">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="show" layoutX="259.0" layoutY="141.0" mnemonicParsing="false" onAction="#show" prefHeight="27.0" prefWidth="83.0" text="Báo cáo">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" layoutX="259.0" layoutY="232.0" mnemonicParsing="false" onAction="#delete" prefHeight="27.0" prefWidth="83.0" text="Xóa">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="259.0" layoutY="293.0" mnemonicParsing="false" onAction="#Thoat" prefHeight="27.0" prefWidth="83.0" text="Thoát">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="search" layoutX="259.0" layoutY="186.0" mnemonicParsing="false" onAction="#search" prefHeight="27.0" prefWidth="83.0" text="Tìm kiếm">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

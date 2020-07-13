@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="184.0" layoutY="313.0" mnemonicParsing="false" onAction="#dashBoardView" prefHeight="39.0" prefWidth="79.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="userNameID" layoutX="184.0" layoutY="174.0" promptText="UserName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordID" layoutX="184.0" layoutY="242.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="329.0" layoutY="313.0" mnemonicParsing="false" onAction="#cancel" text="Cancer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="dangnhap" layoutX="184.0" layoutY="94.0" prefHeight="25.0" prefWidth="224.0" text="Đăng nhập">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
